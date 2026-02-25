@@ -3,6 +3,7 @@ OVERVIEW:
 - One group completed the task on 800 mg sulpiride (dopamine D2 receptor antagonist), and a separate group on placebo.
 - Full details are provided in Jarvis et al. 2026 ...
 
+
 DATA FILE: data-behaviour-sulpiride-effort-learning
 - DESCRIPTION: behavioural data and task conditions, long form (one trial per row)
 - VARIABLES:
@@ -19,6 +20,7 @@ DATA FILE: data-behaviour-sulpiride-effort-learning
      - drug: 0 = placebo, 1 = sulpiride
      - effort: force exerted in MVC
      - trial: current trial number
+
 
 DATA FILE: data-subjects-sulpiride-effort-learning
 - DESCRIPTION: subject data with vitals and BLVAS ratings, short form (one subject per row)
