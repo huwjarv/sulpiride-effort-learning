@@ -11,10 +11,10 @@ DATA FILE: data-behaviour-sulpiride-effort-learning
      - choice: 1 = low effort stimulus, 2 = high effort stimulus
      - outcome: 0 = no reward, 1 = reward
      - correct: 0 = chose low value stimulus, 1 = chose high value stimulus
-     - condition: 1 = P(stim 1) = 0.7, P(stim 2) = 0.3
-                  2 = P(stim 1) = 0.3, P(stim 2) = 0.7
-                  3 = P(stim 1) = 0.3, P(stim 2) = 0.3
-                  4 = P(stim 1) = 0.7, P(stim 2) = 0.7
+     - condition: 1 = P(stim 1) = 0.7, P(stim 2) = 0.3;
+                  2 = P(stim 1) = 0.3, P(stim 2) = 0.7;
+                  3 = P(stim 1) = 0.3, P(stim 2) = 0.3;
+                  4 = P(stim 1) = 0.7, P(stim 2) = 0.7.
      - block: 1 or 2
      - session: 1 = first session
      - drug: 0 = placebo, 1 = sulpiride
