@@ -1,7 +1,7 @@
 OVERVIEW:
 - This repository contains data from human participants (N = 42) completing a reward learning study with an effort manipulation.
 - One group completed the task on 800 mg sulpiride (dopamine D2 receptor antagonist), and a separate group on placebo.
-- Full details are provided in Jarvis et al. 2026 ...
+- Full details are provided in 'Dopamine D2-receptor blockade in humans disrupts the effect of effort on learning' (Jarvis et al. 2026, PLOS Biology).
 
 
 DATA FILE: data-behaviour-sulpiride-effort-learning
