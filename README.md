@@ -1,7 +1,8 @@
 OVERVIEW:
-- This repository contains data from human participants (N = 42) completing a reward learning study with an effort manipulation.
-- One group completed the task on 800 mg sulpiride (dopamine D2 receptor antagonist), and a separate group on placebo.
-- Full details are provided in 'Dopamine D2-receptor blockade in humans disrupts the effect of effort on learning' (Jarvis et al. 2026, PLOS Biology).
+- This repository contains:
+(1) data from human participants (N = 42) completing a reward learning study with an effort manipulation. One group completed the task on 800 mg sulpiride (dopamine D2 receptor antagonist), and a separate group on placebo.
+(2) matlab functions to run computational models of reinforcement learning.
+- Full details of these data and models are provided in 'Dopamine D2-receptor blockade in humans disrupts the effect of effort on learning' (Jarvis et al. 2026, PLOS Biology).
 
 
 DATA FILE: data-behaviour-sulpiride-effort-learning
@@ -41,4 +42,11 @@ DATA FILE: data-subjects-sulpiride-effort-learning
      - alertness: BLVAS alertness (_0 to _4 hours since drug ingestion)
      - contentedness: BLVAS contentedness (_0 to _4 hours since drug ingestion)
      - calmness: BLVAS calmness (_0 to _4 hours since drug ingestion)
-        
+
+MATLAB FUNCTIONS: fn_M1_baseline, fn_M2_dual_learning_rates, fn_M3_effort_reinforcement
+- DESCRIPTION:
+     - matlab code for three separate computational models of reinforcement learning (M1-3).
+     - M1 is the baseline model (single learning rate)
+     - M2 is the dual learning rates model (learning rate asymmetry)
+     - M3 is the effort reinforcement model (learning rate asymmetry sensitive to effort)
+     - models can be fit to trial-by-trial choice data by using e.g. fmincon() to minimise the negative log likelihood
